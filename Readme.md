@@ -8,6 +8,9 @@
 * [FileDownloadHandler.ashx](./CS/WebSite/FileDownloadHandler.ashx) (VB: [FileDownloadHandler.ashx](./VB/WebSite/FileDownloadHandler.ashx))
 <!-- default file list end -->
 # How to download files from a specific ASPxGridView's column
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e5175/)**
+<!-- run online end -->
 
 
 <p>This example illustrates how to create a column whose cells are rendered as links with icons. Once the link is clicked, the file that corresponds to the current row starts downloading. Here is a downloading column's markup:<br />

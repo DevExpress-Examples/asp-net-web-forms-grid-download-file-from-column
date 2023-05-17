@@ -9,7 +9,7 @@ This example demonstrates how to create a templated column with buttons that are
 
 ## Overview
 
-Specify a column's [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) property,add a button to the template, and set the button's [RenderMode](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton.RenderMode) property to `Link`.
+Specify a column's [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataColumn.DataItemTemplate) property, add a button to the template, and set the button's [RenderMode](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxButton.RenderMode) property to `Link`.
 
 ```aspx
 <dx:GridViewDataColumn Caption="Doc" VisibleIndex="5">
@@ -22,7 +22,7 @@ Specify a column's [DataItemTemplate](https://docs.devexpress.com/AspNet/DevExpr
 </dx:GridViewDataColumn>
 ```
 
-Handle the button's server-side `Init` event. In the handler, access the button's template container and get the container's key value. Then handle the button's client-side `Click` event and pass the container's key value to the `FileDownloadHandler.asxh` handler. In the handler, get the file specified by the container's key value and send this gile to the browser.
+Handle the button's server-side `Init` event. In the handler, access the button's template container and get the container's key value. Then handle the button's client-side `Click` event and pass the container's key value to the `FileDownloadHandler.asxh` handler. In the handler, get the file specified by the container's key value and send this file to the browser.
 
 ```cs
 protected void ASPxButton1_Init(object sender, EventArgs e) {

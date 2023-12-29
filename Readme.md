@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to download files from a specific column
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128539644/)**
-<!-- run online end -->
 
 This example demonstrates how to create a templated column with buttons that are rendered as links with icons. When a user clicks a link, the corresponding file is downloaded.
 

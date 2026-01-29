@@ -6,14 +6,14 @@ Imports System
 Public Class FileDownloadHandler
 	Implements IHttpHandler
 
-	Public Sub ProcessRequest(ByVal context As HttpContext)
+	Public Sub ProcessRequest(ByVal context As HttpContext) Implements IHttpHandler.ProcessRequest
 		Dim id As String = context.Request("id")
 		Dim content() As Byte = GetFileContentByKey(context, id)
 
 		ExportToResponse(context, content, "image_" & id, "jpg", False)
 	End Sub
 
-	Public ReadOnly Property IsReusable() As Boolean
+	Public ReadOnly Property IsReusable() As Boolean Implements IHttpHandler.IsReusable
 		Get
 			Return False
 		End Get

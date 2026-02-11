@@ -56,7 +56,7 @@ private bool FileExists(object key) {
 
 * [ASP.NET Futures - Generating Dynamic Images with HttpHandlers gets Easier](https://www.hanselman.com/blog/aspnet-futures-generating-dynamic-images-with-httphandlers-gets-easier)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-download-file-from-column&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-download-file-from-column&~~~was_helpful=no)
 
